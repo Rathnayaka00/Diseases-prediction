@@ -1,0 +1,93 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Python specific
+*.pyo
+*.pyd
+*.whl
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Local directories
+local_settings.py
+settings_local.py
+
+# Streamlit cache and files
+.streamlit/
+*.pkl  # Add this if your pickle files are large and don't need to be in Git
+
+# Data
+data/
+datasets/
+
+# AWS credentials and sensitive files
+*.pem
+*.key
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Anaconda
+*.conda
+*.nbconvert/
+
+
+
